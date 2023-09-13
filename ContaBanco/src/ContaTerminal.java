@@ -5,6 +5,7 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
         input.useLocale(Locale.US);
+        // o useLocale é para receber o valor como pedido na atividade =237.48
         
         System.out.println("Digite o número da sua conta:");
         int conta = input.nextInt();
